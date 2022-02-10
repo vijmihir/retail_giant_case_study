@@ -5,26 +5,27 @@ Forecast the sales of products for the next 6 months to have a proper estimate o
 Global Mart is an online supergiant store that has worldwide operations. This store takes orders and delivers across the globe and deals with all the major product categories — consumer, corporate & home office. As part of the analytics team the objective is to forecast the sales of products using historic timeseries data to aid in inventory management and business processes for a client. 
 
  The dataset has the following 5 attributes:
-                                                                --------------------------------------------------------
-                                                                |Attributes	  |Description                             |
-                                                                |------------------------------------------------------|
-                                                                |Order-Date	  |The date on which the order was placed  |
-                                                                |Segment	     |The segment to which the product belongs|
-                                                                |Market	      |The market to which the customer belongs|
-                                                                |Sales	       |Total sales value of the transaction    |
-                                                                |Profit	      |Profit made on the transaction          |
-                                                                --------------------------------------------------------
+                                                           
+                                                                Attributes	  Description                             
+                                                            
+                                                                Order-Date	  The date on which the order was placed  
+                                                                Segment	     The segment to which the product belongs
+                                                                Market	      The market to which the customer belongs
+                                                                Sales	       Total sales value of the transaction    
+                                                                Profit	      Profit made on the transaction          
+                                                                
 The store caters to 7 different geographical market segments and 3 major customer segments, i.e. consumer, corporate and home as can be seen in the table below.
-                                                                -------------------------------------
-                                                                |Market	        ``      |Segment    |
-                                                                -------------------------------------
-                                                                |Africa	                |Consumer   | 
-                                                                |APAC (Asia Pacific)	   |Corporate  | 
-                                                                |Canada	                |Home Office|
-                                                                |EMEA(Middle East)	     |           |
-                                                                |EU (European Union)	   |           |
-                                                                |LATAM (Latin America)	 |           |
-                                                                |US (United States)	    |           |
+                                                               
+                                                                Market	        ``      Segment     
+                                                                
+                                                                Africa	                Consumer   
+                                                                APAC (Asia Pacific)	   Corporate   
+                                                                Canada	                Home Office
+                                                                EMEA(Middle East)	                
+                                                                EU (European Union)	              
+                                                                LATAM (Latin America)	            
+                                                                US (United States)	
+                                                                
 Based on these, there are 21 unique "Market-Segments" for which the sales forecasts can be made. That is the dataset needs to be prepared such that I get the Order-Date, Sales and Profit for the 21 market segments.
 Now, due to certain unpredictable circumstances in the market, as a company, the client are prioritizing only the best and most consistent market segment in terms of profitability.
 I want to see which market segment is the most consistently profitable. And then, I want to forecast the sales for that most consistently profitable market-segment only. This way I know that the market region your company is investing in will be beneficial for the company as the forecasts will be reliable.
