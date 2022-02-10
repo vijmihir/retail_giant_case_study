@@ -4,7 +4,7 @@ Forecast the sales of products for the next 6 months to have a proper estimate o
 ### Business Problem 
 Global Mart is an online supergiant store that has worldwide operations. This store takes orders and delivers across the globe and deals with all the major product categories — consumer, corporate & home office. As part of the analytics team the objective is to forecast the sales of products using historic timeseries data to aid in inventory management and business processes for a client. 
 
-The dataset has the following 5 attributes:
+ The dataset has the following 5 attributes:
                                                                 Attributes	Description
                                                                 Order-Date	The date on which the order was placed
                                                                 Segment	    The segment to which the product belongs
