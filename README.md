@@ -11,6 +11,7 @@ The dataset has the following 5 attributes:
                                                                 Market	    The market to which the customer belongs
                                                                 Sales	      Total sales value of the transaction
                                                                 Profit	    Profit made on the transaction
+                                                                
 The store caters to 7 different geographical market segments and 3 major customer segments, i.e. consumer, corporate and home as can be seen in the table below.
 
                                                                 Market	        ``        Segment
